@@ -3,7 +3,6 @@ import { navlinks } from '../../../constanta';
 import Card from '../UI/card/index.vue'
 
 
-
 </script>
 <template>
     <aside class="w-auto h-[1198px]">

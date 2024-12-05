@@ -72,12 +72,12 @@
             <div>
             <h3 class="text-[14px] text-[#ACACAC]">Active Now</h3>
     <strong> <h1 class=" text-[32px]">189</h1> </strong>
-    <div class="flex">
-            <img class="w-6 h-6" src="../../../public/cilent.png" alt="">
-            <img class="w-6 h-6" src="../../../public/cilent.png" alt="">
-            <img class="w-6 h-6" src="../../../public/cilent.png" alt="">
-            <img class="w-6 h-6" src="../../../public/cilent.png" alt="">
-            <img class="w-6 h-6" src="../../../public/cilent.png" alt="">
+    <div class="relative flex">
+            <img class="absolute w-6 h-6" src="../../../public/cilent.png" alt="">
+            <img class="absolute w-6 h-6 left-4" src="../../../public/cilent.png" alt="">
+            <img class="absolute w-6 h-6 left-7" src="../../../public/cilent.png" alt="">
+            <img class="absolute w-6 h-6 left-10" src="../../../public/cilent.png" alt="">
+            <img class="absolute w-6 h-6 left-14" src="../../../public/cilent.png" alt="">
     </div>
     </div>
     </div>

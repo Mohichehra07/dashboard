@@ -13,7 +13,7 @@
                     <option value="netwest">Finsweet</option>
                 </select>
                 </label>
-        </header>
+        </header><br>
         <table>
             <thead>
                 <tr>
@@ -30,8 +30,8 @@
         </table><br>
         <div class="flex gap-3">
             <p class="text-[#B5B7C0] text-[14px]">Showing data 1 to 8 of  256K entries</p>
-            <div class="flex  " v-for="btn in button" :key="btn">
-                <button class="w-6 h-6  "> {{ btn.number }} </button> 
+            <div class="flex " v-for="btn in button" :key="btn">
+                <button class="w-6 h-6 "> {{ btn.number }} </button> 
                 
 
             </div>
@@ -65,7 +65,7 @@ table{
         border: none;
     }
     tr{
-        border: 1px solid #B5B7C0 ;
+       border-bottom: 1px solid #B5B7C0;
         
 
     }
