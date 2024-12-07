@@ -7,16 +7,16 @@
         <button class="w-[203px] h-[40px] text-[#4925E9] bg-[white] rounded-2xl">Get Pro Now!</button>
     </div>
     <div class="w-auto h-[150px] flex p-7 ">
-      <div>
-    <img src="../../../../public/cilent.png" alt="cilent">          
+      <img class="w-10 h-10" src="../../../../public/cilent.png" alt="cilent">          
+    <div>
       </div>
       <div class="ml-5 w-[151px] h-9">
-        <h2>Evano</h2>
-        <p>Project Manager</p>
-      </div>
+        <h2 class="w-11 h-5 text-[14px] font-bold">Evano</h2>
+        <p class="w-[101px] h-[18px] text-[#757575] text-[12px]">Project Manager</p>
+        </div>
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M6 9L12 15L18 9" stroke="#757575" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
+      </svg>
         
     </div>
 

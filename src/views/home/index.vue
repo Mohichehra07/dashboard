@@ -5,7 +5,7 @@ import { tableHealders,tableRow } from '../../../constanta/index'
 <template>
     <div class="flex mt-[70px] p-4">
     <BaseTable :haedings="tableHealders" :data="tableRow">
-    <template #Action= "{ data }">
+    <template #Action=  "{ data }">
         <button class="py-2 px-3 bg-[#007bff] text-[white] rounded-md cursor-pointer hover:bg-[#0056b3] ">Active</button>
     </template>
     </BaseTable>
