@@ -6,6 +6,7 @@
                 <p class="w-[111px] h-[21px] text-[14px] text-[#16C098]">Active Members</p>
             </div>
             <input class="w-[216px] h-[38px] ml-[370px] rounded-md" type="search" placeholder="Search">
+            <BaseTable :headings="tableHeaders" :data="Search"></BaseTable>
             <label>
                 Short by:
                     <select>
@@ -41,6 +42,16 @@
 <script setup>
 import { defineProps } from "vue";
 import  { button }  from "../../../../constanta/index";
+import { ref,computed } from 'vue';
+
+const search = ref("");
+
+const Search = computed(() => {
+  return tableRows.filter((row) =>
+    row.Name.toLowerCase().includes(search.value.toLowerCase())
+  );
+});
+
 
 defineProps({
     haedings:Array,

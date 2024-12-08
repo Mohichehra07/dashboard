@@ -1,49 +1,56 @@
+import { createRouter, createWebHistory } from "vue-router";
 
-import { createRouter, createWebHistory } from 'vue-router'
+import Layout from "@/layout/layout.vue";
+import Home from "@/views/home/index.vue";
+import Product from "@/views/product/index.vue"
+import Costumers from "@/views/costumers/index.vue";
+import Income from "@/views/income/index.vue";
+import Help from "@/views/help/index.vue";
 
 
 const routes = [
-  {
-    path: '/',
-    name: "dashboard",
-    component: () => import('../layout/dashboard/index.vue'),
-    children: [
-      {
-        path: '',
-        name: "home",
-        component: () => import('../views/home/index.vue'),
-      },
-      {
-        path: 'help',
-        nama:'help',
-        comment: () => import('../views/help/index.vue')
-      },
-      {
-        path: 'income',
-        nama:'income',
-        comment: () => import('../views/income/index.vue')
-      },
-      {
-        path: 'product',
-        nama:'product',
-        comment: () => import('../views/product/index.vue')
-      },
-      {
-        path: 'promate',
-        nama:'promate',
-        comment: () => import('../views/promate/index.vue')
-      },
-      // {
-      //   path: 'customers',
-      //   nama:'customers',
-      //   comment: () => import('../views/customers/index.vue')
-      // },
-    ]
-  }
+    {
+        path: "/",
+        component: Layout,
+        children: [
+            {
+                path: "",
+                name: "Home",
+                component: Home,
+            },
+            {
+                path: "product",
+                name: "Product",
+                component: Product,
+            },
+            {
+                path: "costumers",
+                name: "Costumers",
+                component: Costumers,
+            },
+            {
+                path: "income",
+                name: "Income",
+                component: Income,
+            },
+            {
+              path:"help",
+              name:"Help",
+              component: Help,
+            }
+        ],
+    },
 ];
-const router = createRouter({
-  history: createWebHistory(),
-  routes,
-  });
 
-export default routes
+const router = createRouter({
+    history: createWebHistory(),
+    routes,
+});
+
+export default router
+
+
+
+
+
+
