@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Layout from "@/layout/layout.vue";
 import Home from "@/views/home/index.vue";
 import Product from "@/views/product/index.vue"
-import Costumers from "@/views/costumers/index.vue";
+import Costumers from "@/views/costumers/index.vue"
 import Income from "@/views/income/index.vue";
 import Help from "@/views/help/index.vue";
 
@@ -25,7 +25,7 @@ const routes = [
             },
             {
                 path: "costumers",
-                name: "Costumers",
+                name: "costumers",
                 component: Costumers,
             },
             {

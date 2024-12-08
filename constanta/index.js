@@ -24,8 +24,8 @@ export const navlinks = [
     },
 
     {
-        path:"/customer",
-        name:"customer",
+        path:"/costumers",
+        name:"costumers",
         title:"Customer",
         icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
@@ -60,44 +60,109 @@ export const navlinks = [
     },
    
 ];
-export const tableHealders = [
-    {title: "Customer Name", key: "name", },
-    {title: "Company", key: "company"},
-    {title: "PhoneNumber", key: "number"},
-    {title: "Email", key: "email"},
-    {title: "Country", key: "country"},
-    {title: "Status", key: "status"},
-    
-];
-export const tableRow = [
-{ id: 1,  name:"Jane Cooper", company:"Microsoft", number:"(225) 555-0118",  email:"jane@microsoft.com",country:"United States", status:"Active" },
-{ id: 2,  name:"Floyd Miles ", company:"Yahoo", number:"(205) 555-0100",  email:"floyd@yahoo.com",country:"Kiribati", status:"Inactive" },
-{ id: 3,  name:"Ronald Richards", company:"Adobe",  number:"(302) 555-0107", email:"ronald@adobe.com",country:"Israel", status:"Inactive" },
-{ id: 4,  name:"Marvin McKinney", company:"Tesla",  number:"(252) 555-0126", email:"marvin@tesla.com",country:"Iran", status:"Active" },
-{ id: 5,  name:"Jerome Bell", company:"Google",  number:"(629) 555-0129", email:"jerome@google.com",country:"Réunion", status:"Active" },
-{ id: 6,  name:"Kathryn Murphy", company:"Microsoft",  number:"(406) 555-0120", email:"kathryn@microsoft.com",country:"Curaçao", status:"Active" },
-{ id: 7,  name:"Jacob Jones", company:"Yahoo",  number:"(208) 555-0112", email:"jacob@yahoo.com",country:"Brazil", status:"Active" },
-{ id: 8,  name:"Kristin Watson", company:"Facebook",  number:"(704) 555-0127", email:"kristin@facebook.com",country:"Åland Islands", status:"Inactive" },
-];
-export const button =[
+export const tableHeaders = [
+    { title: "Customer Name", key: "Name" },
+    { title: "Company", key: "Company" },
+    { title: "Number", key: "Number" },
+    { title: "Email", key: "Email" },
+    { title: "Country", key: "Country" },
+    { title: "Status", key: "Status" },
+  ];
+  
+  export const tableRows = [
     {
-        number: "<"
+      id: 1,
+      Name: "Jone Cooper",
+      Company: "Microsoft",
+      Number: "(225) 555-0118",
+      Email: "jane@microsoft.com",
+      Country: "United States",
+      Status: "Active",
     },
     {
-        number: 1
-    }, {
-        number: 2
-    }, {
-        number: 3
-    }, {
-        number: 4
-    },{
-        number: 40
-    }, 
-    {
-        number: ">"
+      id: 2,
+      Name: "Floyd Miles",
+      Company: "Yahoo",
+      Number: "(205) 555-0100",
+      Email: "floyd@yahoo.com",
+      Country: "Kiribati",
+      Status: "Inactive",
     },
-]
+    {
+      id: 3,
+      Name: "Ronald Richards",
+      Company: "Adobe",
+      Number: "(302) 555-0107",
+      Email: "ronald@adobe.com",
+      Country: "Israel",
+      Status: "Inactive",
+    },
+    {
+      id: 4,
+      Name: "Marvin McKinney",
+      Company: "Tesla",
+      Number: "(252) 555-0126",
+      Email: "marvin@tesla.com",
+      Country: "Iran",
+      Status: "Active",
+    },
+  
+    {
+      id: 5,
+      Name: "Jerome Bell",
+      Company: "Google",
+      Number: "(629) 555-0129",
+      Email: "jerome@google.com",
+      Country: "Réunion",
+      Status: "Active",
+    },
+    {
+      id: 6,
+      Name: "Kathryn Murphy",
+      Company: "Microsoft",
+      Number: "(406) 555-0120",
+      Email: "kathryn@microsoft.com",
+      Country: "Curaçao",
+      Status: "Active",
+    },
+    {
+      id: 7,
+      Name: "Jacob Jones",
+      Company: "Yahoo",
+      Number: "(208) 555-0112",
+      Email: "jacob@yahoo.com",
+      Country: "Brazil",
+      Status: "Active",
+    },
+    {
+      id: 8,
+      Name: "Kristin Watson",
+      Company: "Facebook",
+      Number: "(704) 555-0127",
+      Email: "kristin@facebook.com",
+      Country: "Åland Islands",
+      Status: "Inactive",
+    },
+  ];
+// export const button =[
+//     {
+//         number: "<"
+//     },
+//     {
+//         number: 1
+//     }, {
+//         number: 2
+//     }, {
+//         number: 3
+//     }, {
+//         number: 4
+//     },{
+//         number: 40
+//     }, 
+//     {
+//         number: ">"
+//     },
+// ]
 
 
 

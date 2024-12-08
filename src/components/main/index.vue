@@ -1,6 +1,4 @@
 <script setup>
-import BaseTable from '../../components/UI/table/index.vue';
-import { tableHealders,tableRow } from '../../../constanta/index';
 </script>
 <template>      
 <div class="flex gap-[112px] pt-6 pl-4">
@@ -82,13 +80,7 @@ import { tableHealders,tableRow } from '../../../constanta/index';
             <!-- <img class="absolute w-6 h-6 left-20 border-4 rounded-xl border-white" src="../../../public/cilent.png" alt=""> -->
 
     </div>
-    <div class="flex mt-[70px] p-4">
-        <BaseTable :haedings="tableHealders" :data="tableRow">
-        <template #Action=  "{ data }">
-            <button class="py-2 px-3 bg-[#007bff] text-[white] rounded-md cursor-pointer hover:bg-[#0056b3] ">Active</button>
-        </template>
-        </BaseTable>
-    </div>
+
     </div>
     </div>
 </div>
